@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sysol.educamp">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTC‌​UT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_educamp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round_educamp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".homescreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity
+            android:name=".Maindash"
+            android:label="@string/title_activity_maindash"
+            android:parentActivityName=".homescreen"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sysol.educamp.homescreen" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

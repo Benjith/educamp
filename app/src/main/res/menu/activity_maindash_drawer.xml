@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile_menu"
+            android:icon="@drawable/student"
+            android:title="Student Profile" />
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/notification"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/fee"
+            android:icon="@drawable/rupee"
+            android:title="Fee" />
+        <item
+            android:id="@+id/view_group"
+            android:icon="@drawable/group"
+            android:title="View Group" />
+        <item
+            android:id="@+id/complaint"
+            android:icon="@drawable/complaint"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+
+
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/power"
+            android:title="Sign Out" />
+
+
+
+    </group>
+
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

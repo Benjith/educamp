@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".login"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_gravity="center"
+
+            android:textColor="#333"
+            android:textSize="20sp"
+            />
+
+<!--educamp_blue_logo-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/educamp_logo_blue"
+
+            />
+
+<!--//email&password-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <EditText
+                android:id="@+id/email"
+                style="@android:style/Widget.Holo.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/round_rectangle_inputfeild"
+
+                android:hint="E-mail"
+                android:includeFontPadding="true"
+                android:inputType="textAutoComplete"
+                android:paddingLeft="30dip" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="3"
+                android:background="@drawable/round_rectangle_inputfeild"
+                android:hint="Password"
+                android:includeFontPadding="true"
+                android:inputType="textPassword"
+                android:paddingLeft="30dip" />
+
+            <!--sign_in_btn-->
+
+            <Button
+                android:id="@+id/signin_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="3"
+                android:background="@drawable/signin_btn"
+                android:text="Sign In"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <!--forgotbtn_createbtn-->
+            <TextView
+                android:id="@+id/forgot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="sans-serif"
+                android:text="Forgot user details?"
+                android:textAlignment="center"
+                android:textColor="#333"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/createnewac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="sans-serif"
+                android:text="Create a new account"
+                android:textAlignment="center"
+                android:textColor="#333"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    <!--email&password-close-->
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

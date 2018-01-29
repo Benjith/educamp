@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sysol.educamp.profile"
+    tools:showIn="@layout/app_bar_profile">
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_bg_blue_grade"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="25dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/exam_graph"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/graph_fifty"
+
+                android:contentDescription="TODO" />
+
+            <ImageView
+                android:id="@+id/student_pic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/sample_kid" />
+
+            <ImageView
+                android:id="@+id/attendance_graph"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/graph_nientypercent_full" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:paddingTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="35sp"
+        android:layout_marginRight="20dp"
+
+        android:weightSum="2" >
+
+
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exam"
+        android:textColor="#fff"
+        android:layout_weight="2"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attandance"
+            android:textColor="#fff"
+
+
+            />
+
+
+
+    </LinearLayout>
+
+<!--studentname-->
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pinky "
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal|center_vertical"
+
+        />
+
+<!--school&class details-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="160dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="39dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Floreat Public School"
+            android:textColor="#fff"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="160dp"
+        android:weightSum="12"
+
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/std"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Class "
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Division "
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Teacher "
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
