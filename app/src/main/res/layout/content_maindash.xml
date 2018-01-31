@@ -25,7 +25,7 @@
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
     android:orientation="horizontal"
-    android:paddingTop="20dp"
+    android:paddingTop="5dp"
     android:weightSum="3">
 
         <RelativeLayout
@@ -55,10 +55,10 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
             <TextView
-                android:id="@+id/attendance_text"
+                android:id="@+id/exam_percent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/attendance_text"
+                android:layout_below="@id/exam_text"
                 android:layout_centerInParent="true"
                 android:lines="3"
                 android:text="48% "
@@ -89,11 +89,19 @@
                 android:id="@+id/profile_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:maxWidth="130dp"
+
                 android:layout_below="@id/profile_pic"
                 android:layout_centerInParent="false"
                 android:singleLine="true"
                 android:textColor="#fff"
-                android:text="Pinky"
+                android:paddingTop="10dp"
+                android:text="Pinky Gomuthesh "
+
+
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
                 android:textSize="18sp"
                 android:layout_centerHorizontal="true"
                 android:textStyle="bold"
@@ -128,7 +136,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
             <TextView
-                android:id="@+id/attendance_text"
+                android:id="@+id/attendance_percent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/attendance_text"
@@ -147,7 +155,7 @@
 
     </LinearLayout>
 
-
+    <!--quickbuttons-->
 
 
 
