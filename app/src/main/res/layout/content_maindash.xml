@@ -157,7 +157,115 @@
 
     <!--quickbuttons-->
 
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    >
+    <TableRow android:layout_width="fill_parent"
+        android:id="@+id/tbl_btn_one"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:weightSum="3"
+        >
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress Card"
+            android:width="100dip"
+            android:background="@drawable/round_button"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+
+            >
 
 
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply  Leave"
+            android:width="100dip"
+
+            android:background="@drawable/round_button"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+
+            >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:text="Transport"
+            android:layout_height="wrap_content"
+            android:width="100dip"
+            android:background="@drawable/round_button"
+            android:textSize="12dp"
+            android:layout_weight="1"
+
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            >
+
+        </Button>
+    </TableRow>
+<!--2ndrow-->
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/tbl_btn_one"
+        android:padding="5dp"
+        android:weightSum="6"
+        >
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task Given"
+            android:width="100dip"
+            android:background="@drawable/round_button"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"
+
+            >
+
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Table"
+            android:width="100dip"
+            android:background="@drawable/round_button"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+
+             >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:text="Fee Payment"
+            android:layout_height="wrap_content"
+            android:width="100dip"
+            android:background="@drawable/round_button"
+            android:textSize="12dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+
+            >
+
+        </Button>
+    </TableRow>
+</RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
